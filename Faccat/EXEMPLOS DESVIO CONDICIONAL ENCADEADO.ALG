@@ -1,0 +1,26 @@
+Algoritmo "Exemplos desvio condicional encadeado"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Desvio condicional simples
+//de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis
+numero:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite o numero: ")
+leia(numero)
+se numero<10 entao
+   escreval("Numero digitado e menor que 10")
+senao
+     se numero=10 entao
+        escreval("numero digitado e igual a 10")
+     senao
+        escreval("o numero digitado e maior que 10")
+     fimse
+fimse
+
+Fimalgoritmo
